@@ -39,8 +39,8 @@ router.post(
     fetchUser
     ,
     [
-        body('title').isLength({ min: 3 }),
-        body('desc').isLength({min:3})
+        body('title').isLength({ min: 1 }),
+        body('desc').isLength({min:1})
         
 
     ]
